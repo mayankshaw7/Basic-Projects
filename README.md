@@ -1,5 +1,7 @@
 # Basic-Projects
 This collection features key projects designed to demonstrate proficiency in core web technologies including HTML5, CSS3, JavaScript, and the Bootstrap framework
+___________________________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________________________________
 
 #1. 🗓️ Age Calculator
 
@@ -7,14 +9,14 @@ A sleek, responsive web application that calculates a user's exact age based on 
 
 ## 🚀 Live Demo
 You can interact with the live application here: 
-**[View Age Calculator Live](https://mayankshaw7.github.io/Basic-Projects/)**
+**[View Age Calculator Live](https://mayankshaw7.github.io/Basic-Projects/Age-Calculator)**
 
 ---
 
 ## 🛠️ Built With
 *   **HTML5** - Semantic structure for accessibility.
 *   **CSS3** - Custom styling and responsive layout.
-*   ** JavaScript** - Core logic for date calculations.
+*   **JavaScript** - Core logic for date calculations.
 
 ## ✨ Key Features
 *   **Precise Calculation:** Calculates age in Years, Months, and Days.
@@ -27,3 +29,5 @@ Age-Calculator/
 ├── index.html    # Entry point
 ├── style.css     # UI Styling
 └── script.js    # Logic & Calculations
+___________________________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________________________________
