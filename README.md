@@ -30,4 +30,21 @@ Age-Calculator/
 ├── style.css     # UI Styling
 └── script.js    # Logic & Calculations
 ___________________________________________________________________________________________________________________________________________________________________
+```
+# 📢 Dynamic Notice Board
+
+A simple, interactive notice board built with **HTML, CSS, and JavaScript**. This project allows users to dynamically add notices to either the top or the bottom of the list.
+
+## 🔗 Live Demo
+Check out the live project here:**[View Notice Board Live](https://mayankshaw7.github.io/Basic-Projects/Dynamic-Notice-Board)**
+
+---
+
+## 🛠️ Built With
+*   **HTML5** - Page structure and input fields.
+*   **CSS3** - Custom green-themed styling and layout.
+*   **JavaScript** - DOM manipulation for adding notices dynamically.
+
+---
+
 ___________________________________________________________________________________________________________________________________________________________________
