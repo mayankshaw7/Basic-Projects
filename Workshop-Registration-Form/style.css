@@ -1,0 +1,25 @@
+.container {
+    width: 300px;
+    background: linear-gradient(135deg, #e10a0a, #90bafc);
+    color: #fff;
+    min-height: 70px;
+    padding: 30px;
+    border: 2px dashed black;
+    border-radius: 10px;
+}
+
+body {
+    background: linear-gradient(150deg, #d8d44a, #c1425e);
+    width: 100%;
+    min-height: 100vh;
+}
+
+#register {
+    justify-content: center;
+    background-color: #04aa6d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <style>
+    #container {
+      background-color: blanchedalmond;
+      border: 2px solid black;
+      margin: auto;
+      padding: 10px 10px 10px 10px;
+      border-radius: 7.6%;
+    }
+    body {
+      place-items: center;
+    }
+  </style>
+  <body >
+    <h2>Workshop Registration Form</h2>
+    <div class="container">
+      <form action="form.html">
+        <label for="name">Name :</label>&nbsp;&nbsp;&nbsp;
+        <input
+          id="name"
+          type="text"
+          placeholder="Enter your Name"
+        /><br /><br />
+        <label for="roll">Roll No :</label>
+        <input
+          id="roll"
+          type="text"
+          placeholder="Enter your Roll No."
+          pattern="[A-Za-z0-9]+"
+          title="Only letters and numbers allowed. No spaces or special characters."
+          required
+        /><br /><br />
+        <label for="mail">Email :</label>&nbsp;&nbsp;&nbsp;
+        <input
+          id="mail"
+          type="email"
+          placeholder="your@yourdomain.com"
+        /><br /><br />
+        <label for="Phone">Phone:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input
+          id="Phone"
+          type="tel"
+          placeholder="Enter your Contact"
+          pattern="[0-9]{10}"
+          title="Please enter exactly 10 digits. No letters or spaces allowed."
+          required
+        /><br /><br />
+        <label for="DOB">Date of Birth:</label>&nbsp;&nbsp;
+        <input
+          id="DOB"
+          type="Date"
+          placeholder="Enter your DOB"
+          min="1920-01-01"
+          max="2026-01-23"
+          required
+        /><br /><br />
+        <fieldset>
+          <!-- The legend provides context for the entire group -->
+          <legend>Select a Gender:</legend>
+
+          <div>
+            <input type="radio" id="male" name="gender" value="Male" required />
+            <label for="male">Male</label>
+          </div>
+
+          <div>
+            <input type="radio" id="female" name="gender" value="Female" />
+            <label for="female">Female</label>
+          </div>
+        </fieldset>
+        <br />
+
+        <div>
+          <!-- Visible and programmatically associated label -->
+          <label for="dep">Select Department:</label>
+
+          <select id="dep" name="department" required>
+            <!-- Accessible placeholder: selected by default, but cannot be re-chosen -->
+            <option value="" disabled selected>
+              -- Choose a Department --
+            </option>
+
+            <!-- Options with both values (for server) and text (for user) -->
+            <option value="CSE">Computer Science</option>
+            <option value="EE">Electrical Engineering</option>
+            <option value="ECE">Electronics & Communication</option>
+            <option value="CE">Civil Engineering</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <!-- <form action="/upload-page" method="post" enctype="multipart/form-data"> -->
+          <label for="file-upload">Choose a file to upload:</label>
+          <input type="file" id="file-upload" name="userFile" />
+        </div>
+        <br />
+        <div style="text-align: center">
+          <button
+            id="register"
+            type="submit"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
