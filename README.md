@@ -3,7 +3,7 @@ This collection features key projects designed to demonstrate proficiency in cor
 ___________________________________________________________________________________________________________________________________________________________________
 ___________________________________________________________________________________________________________________________________________________________________
 
-#1. 🗓️ Age Calculator
+# 1. Age Calculator🗓️
 
 A sleek, responsive web application that calculates a user's exact age based on their birthdate. This project focuses on DOM manipulation and date logic using Vanilla JavaScript.
 
@@ -31,11 +31,11 @@ Age-Calculator/
 └── script.js    # Logic & Calculations
 ___________________________________________________________________________________________________________________________________________________________________
 ```
-# 📢 Dynamic Notice Board
+# 2. Dynamic Notice Board 📢
 
 A simple, interactive notice board built with **HTML, CSS, and JavaScript**. This project allows users to dynamically add notices to either the top or the bottom of the list.
 
-## 🔗 Live Demo
+## 🚀 Live Demo
 Check out the live project here:**[View Notice Board Live](https://mayankshaw7.github.io/Basic-Projects/Dynamic-Notice-Board)**
 
 ---
@@ -47,4 +47,11 @@ Check out the live project here:**[View Notice Board Live](https://mayankshaw7.g
 
 ---
 
+# 3. Workshop Registration System 📝
+
+A simple, responsive workshop registration mini-project built to demonstrate clean UI design and robust **client-side form validation**.
+
+## 🚀 Live Demo
+You can view the live project here:  
+**[View Registration Form Live](https://mayankshaw7.github.io/Basic-Projects/Workshop-Registration-Form)**
 ___________________________________________________________________________________________________________________________________________________________________
