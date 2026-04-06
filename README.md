@@ -54,4 +54,12 @@ A simple, responsive workshop registration mini-project built to demonstrate cle
 ## 🚀 Live Demo
 You can view the live project here:  
 **[View Registration Form Live](https://mayankshaw7.github.io/Basic-Projects/Workshop-Registration-Form)**
+---
+# 4. Dynamic Notepad📝
+
+A lightweight, full-stack dynamic notepad that processes user input via a JavaScript backend and streams live updates back to the frontend in real-time
+
+## 🚀 Live Demo
+You can view the live project here:  
+**[View Notepad Live](https://mayankshaw7.github.io/Basic-Projects/Dynamic-Notepad)**
 ___________________________________________________________________________________________________________________________________________________________________
