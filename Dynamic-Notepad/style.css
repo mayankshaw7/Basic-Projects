@@ -1,0 +1,27 @@
+body {
+    background-image: url('image.png');
+    width: 100%;
+    padding: 10%;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100rem;
+    color: #ebeee8;
+}
+
+textarea {
+    border: 2px dashed rgb(0, 0, 0);
+    border-radius: 20%;
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100rem;
+    color: #ebeee8;
+    border: 5px dashed rgb(244, 4, 4);
+    border-radius: 10px;
+    padding: 0 20px 20px;
+    min-width: 50px;
+    min-height: 400px;
+}
